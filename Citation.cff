@@ -5,4 +5,13 @@ authors:
   - Author: Gonzalo Martínez-Muñoz
 title: Gradient Boosted Neural Network
 version: 1.0.0
+doi: 
 date-released: 2021-01-27
+
+
+references:
+  - scope: "Cite this paper when you run GBNNy"
+    type: article
+    title: Sequential Training of Neural Networks with Gradient Boosting
+    doi:
+    keywords: 
