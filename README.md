@@ -1,6 +1,5 @@
 
-  
-|python|_ |build-status| |docs| |Codecov|_ |PyPIBadge|_ |license|_ |doi|
+
 
 # GBNN
 GBNN is a python library for dealing with classification (Binary and multi-class) and regression problems.
