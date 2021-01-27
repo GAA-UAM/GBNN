@@ -1,6 +1,3 @@
-
-
-
 # GBNN
 GBNN is a python library for dealing with classification (Binary and multi-class) and regression problems.
 
@@ -47,11 +44,7 @@ development branch.
 <br/>
 The authors and developers involved in the development of the GBNN package can be found in the [contributor](contributors.txt)'s file.
 
-### References
-"Cite this paper when you run GBNN"
-- Type: Article
-- Title: Sequential Training of Neural Networks with Gradient Boosting
-- Doi:
+
 
 ### License
 The package is licensed under the [GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html).
