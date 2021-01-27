@@ -6,7 +6,7 @@ Gradient Boosted Neural Network
 
 ## Citation 
 If you use this package, please cite it as below.
-<br/>authors:
+<br/> **Authors:**
 - Seyedsaman Emami 
 - Gonzalo Martínez-Muñoz
 
