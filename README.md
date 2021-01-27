@@ -45,7 +45,7 @@ All contributions are welcome. You can help this project by creating an issue,
 reporting an improvement or a bug, forking and creating a pull request to the 
 development branch.
 <br/>
-The authors and developers involved in the development of the GBNN package can be found in the [contributor](doc/contributors.txt)'s file.
+The authors and developers involved in the development of the GBNN package can be found in the [contributor](contributors.txt)'s file.
 
 ### References
 "Cite this paper when you run GBNN"
