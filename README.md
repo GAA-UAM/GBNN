@@ -7,8 +7,9 @@ Gradient Boosted Neural Network
 ## Citation 
 If you use this package, please cite it as below.
 <br/> **Authors:**
-- Seyedsaman Emami 
 - Gonzalo Martínez-Muñoz
+- Seyedsaman Emami 
+
 
 ## Installation
 Installing via [Git](https://github.com/) to install GBNN.
