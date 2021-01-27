@@ -1,18 +1,8 @@
 cff-version: 1.1.0
-message: If you use this software, please cite it as below.
+message: If you use this package, please cite it as below.
 authors:
   - Author: Seyedsaman Emami, 
   - Author: Gonzalo Martínez-Muñoz
 title: Gradient Boosted Neural Network
 version: 1.0.0
-doi: 
 date-released: 2021-01-27
-
-
-references:
-  - scope: "Cite this paper when you run GBNN"
-    type: article
-    title: Sequential Training of Neural Networks with Gradient Boosting
-    doi:
-    keywords: Gradient Boosting, Neural Network
-    email: emami.seyedsaman@uam.es, gonzalo.martinez@uam.es
