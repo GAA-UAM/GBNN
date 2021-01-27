@@ -16,7 +16,10 @@ If you use this package, please cite it as below.
 authors:
 - Seyedsaman Emami 
 - Gonzalo Martínez-Muñoz
-@github/
+doi:
+@samanemami
+@gmarmu
+
 
 ### Version 
 1.0.1
