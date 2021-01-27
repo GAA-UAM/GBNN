@@ -4,27 +4,40 @@ GBNN is a python library for dealing with classification (Binary and multi-class
 # Title
 Gradient Boosted Neural Network
 
-## Installation
-Installing via [Git](https://github.com/) to install GBNN.
-
-$ python -m pip install git+https://github.com/GAA-UAM/GBNN/GBNN.py
-
-
-## License
-
 ## Citation 
 If you use this package, please cite it as below.
 authors:
 - Seyedsaman Emami 
 - Gonzalo Martínez-Muñoz
 
+## Installation
+Installing via [Git](https://github.com/) to install GBNN.
+
+```bash
+$ python -m pip install git+https://github.com/GAA-UAM/GBNN/GBNN.py
+```
+
+## Usage
+
+```python
+import GBNN
+
+model = GBNN.GNEGNEClassifier()'
+model.fit(x_train, y_train)'
+model.predict(x_test)'
+```
 
 
-## References:
+## License
+[GNU General Public License v3.0] (https://spdx.org/licenses/GPL-3.0-or-later.html)
+
+
+
+## References
 "Cite this paper when you run GBNN"
 - Type: Article
-- title: Sequential Training of Neural Networks with Gradient Boosting
-- doi:
+- Title: Sequential Training of Neural Networks with Gradient Boosting
+- Doi:
 
 
 ### Keywords
