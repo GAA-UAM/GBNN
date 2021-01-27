@@ -14,4 +14,5 @@ references:
     type: article
     title: Sequential Training of Neural Networks with Gradient Boosting
     doi:
-    keywords: 
+    keywords: Gradient Boosting, Neural Network
+    email: emami.seyedsaman@uam.es, gonzalo.martinez@uam.es
