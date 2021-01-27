@@ -31,18 +31,23 @@ model.fit(x_train, y_train)
 model.predict(x_test)
 ```
 
+## Requirements
+This package takes advantage of the following libraries:
+- [numpy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [scipy](https://www.scipy.org/)
+- [scikit-learn](https://scikit-learn.org/stable/)
+<br/>
+These libraries had already imported to the GBNN package.
 
-## License
-[GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html)
-
-
-
-## References
+### References
 "Cite this paper when you run GBNN"
 - Type: Article
 - Title: Sequential Training of Neural Networks with Gradient Boosting
 - Doi:
 
+### License
+[GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html)
 
 ### Keywords
 Gradient Boosting, Neural Network
@@ -52,4 +57,5 @@ Gradient Boosting, Neural Network
 
 ### Date-released
 2017-12-18
+
 
