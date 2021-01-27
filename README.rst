@@ -1,5 +1,4 @@
-.. image:: https://raw.githubusercontent.com/GAA-UAM/scikit-fda/develop/docs/logos/title_logo/title_logo.png
-	:alt: scikit-fda: Functional Data Analysis in Python
+
   
 |python|_ |build-status| |docs| |Codecov|_ |PyPIBadge|_ |license|_ |doi|
 
