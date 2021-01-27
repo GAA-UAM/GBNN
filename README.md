@@ -44,9 +44,8 @@ These libraries had already imported to the GBNN package.
 All contributions are welcome. You can help this project by creating an issue, 
 reporting an improvement or a bug, forking and creating a pull request to the 
 development branch.
-
-The authors and developers involved at some point in the development of 
-the package can be found in the [contributors](doc/contributors.txt) file.
+<br/>
+The authors and developers involved in the development of the GBNN package can be found in the [contributor](doc/contributors.txt)'s file.
 
 ### References
 "Cite this paper when you run GBNN"
@@ -61,7 +60,7 @@ The package is licensed under the [GNU General Public License v3.0](https://spdx
 Gradient Boosting, Neural Network
 
 ### Version 
-1.0.1
+1.0.0
 
 ### Date-released
 2021-01-27
