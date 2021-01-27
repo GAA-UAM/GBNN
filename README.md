@@ -33,12 +33,20 @@ model.predict(x_test)
 
 ## Requirements
 This package takes advantage of the following libraries:
-- [numpy](https://numpy.org/)
-- [pandas](https://pandas.pydata.org/)
-- [scipy](https://www.scipy.org/)
-- [scikit-learn](https://scikit-learn.org/stable/)
+- [numpy](https://numpy.org/) - Numerical Python
+- [pandas](https://pandas.pydata.org/) - python data analysis library
+- [scipy](https://www.scipy.org/) - Scientific computation in Python
+- [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
 <br/>
 These libraries had already imported to the GBNN package.
+
+## Contributing
+All contributions are welcome. You can help this project by creating an issue, 
+reporting an improvement or a bug, forking and creating a pull request to the 
+development branch.
+
+The authors and developers involved at some point in the development of 
+the package can be found in the contributors file.
 
 ### References
 "Cite this paper when you run GBNN"
@@ -47,7 +55,7 @@ These libraries had already imported to the GBNN package.
 - Doi:
 
 ### License
-[GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html)
+The package is licensed under the [GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html).
 
 ### Keywords
 Gradient Boosting, Neural Network
