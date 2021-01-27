@@ -46,7 +46,7 @@ reporting an improvement or a bug, forking and creating a pull request to the
 development branch.
 
 The authors and developers involved at some point in the development of 
-the package can be found in the contributors file.
+the package can be found in the [contributors](doc/contributors.txt) file.
 
 ### References
 "Cite this paper when you run GBNN"
@@ -64,6 +64,6 @@ Gradient Boosting, Neural Network
 1.0.1
 
 ### Date-released
-2017-12-18
+2021-01-27
 
 
