@@ -10,7 +10,7 @@ date-released: 2021-01-27
 
 
 references:
-  - scope: "Cite this paper when you run GBNNy"
+  - scope: "Cite this paper when you run GBNN"
     type: article
     title: Sequential Training of Neural Networks with Gradient Boosting
     doi:
