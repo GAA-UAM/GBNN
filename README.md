@@ -14,11 +14,10 @@ references:
       - Seyedsaman Emami
       - Gonzalo Martínez-Muñoz
     Arxiv:
-      - [https://arxiv.org/abs/1909.12098](https://arxiv.org/abs/1909.12098)
+      - https://arxiv.org/abs/1909.12098
     keywords:
       - Gradient Boosting
       - "Neural Network"
-    ...
 ```
 **Arxiv:**
 - [Sequential Training of Neural Networks with Gradient Boosting](https://arxiv.org/abs/1909.12098)
