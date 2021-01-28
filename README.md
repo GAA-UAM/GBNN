@@ -9,6 +9,8 @@ If you use this package, please cite it as below.
 <br/> **Authors:**
 - Gonzalo Martínez-Muñoz
 - Seyedsaman Emami 
+<br/> **arxiv:**
+- [Sequential Training of Neural Networks with Gradient Boosting](https://arxiv.org/abs/1909.12098)
 
 
 ## Installation
