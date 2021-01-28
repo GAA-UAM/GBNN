@@ -6,9 +6,10 @@
         * [License](#License)
 * [Installation](#Installation)
 * [Usage](#Usage)
+   * [GBNN method](#GBNN method)
    * [cross-validation](#cross-validation)
    * [Requirements](#Requirements)
-      * [Requirements of GBNN](#Requirements of GBNN)
+      * [Requirements of GBNN](#GBNN-GBNN)
 * [Contributing](#Contributing)  
 * [Keywords](#Keywords)  
 * [Version](#Version)  
@@ -57,6 +58,7 @@ $ python -m pip install git+https://github.com/GAA-UAM/GBNN/GBNN.py
 If you want to use this library easily after installing it, you could import 
 it into your python project. You can use this package with the standards of 
 Scikit-learn.
+## GBNN method
 In the following, one can see the example of implementing the algorithm. 
 
 ```python
@@ -89,12 +91,15 @@ gridsearch(X, y, model, param_grid, scoring_functions,
 the `n_cv_general`, refers to the number of cross-validation. the `n_cv_intrain`, refers to the number of within-train cross-validation.
 
 ## Requirements
-### Requirements of GBNN
+### GBNN-GBNN
 The GBNN package takes advantage of the following libraries, which had already imported to the GBNN package.:
 - [numpy](https://numpy.org/) - Numerical Python
 - [pandas](https://pandas.pydata.org/) - python data analysis library
 - [scipy](https://www.scipy.org/) - Scientific computation in Python
 - [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
+
+### Cross-Validation Requirements
+
 
 
 # Contributing
