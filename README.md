@@ -9,7 +9,7 @@
    * [GBNN method](#GBNN-Example)
    * [cross-validation](#cross-validation-Exapmle)
    * [Requirements](#Requirements)
-* [Contributing](#Contributing)  
+* [Contributions](#Contributions)  
 * [Keywords](#Keywords)  
 * [Version](#Version)  
 * [Date-released](#Date-released)      
@@ -97,10 +97,10 @@ This package takes advantage of the following libraries, which had already impor
 - [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
 
 
-# Contributing
-All contributions are welcome. You can help this project by creating an issue, 
+# Contributions
+Contributions to the GBNN are welcome! . You can improve this project by creating an issue, 
 reporting an improvement or a bug, forking and creating a pull request to the 
-development branch.
+development branch. For more information, check the [contributing guidelines](contributing-guidelines.md).
 <br/>
 The authors and developers involved in the development of the GBNN package can be found in the [contributor](contributors.txt)'s file.
 
