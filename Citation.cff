@@ -1,8 +1,10 @@
+```yaml
 cff-version: 1.1.0
-message: If you use this package, please cite it as below.
+If you use this package, please cite it as below.
 authors:
   - Author: Seyedsaman Emami, 
   - Author: Gonzalo Martínez-Muñoz
 title: Gradient Boosted Neural Network
 version: 1.0.0
 date-released: 2021-01-27
+```
