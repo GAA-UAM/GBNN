@@ -6,10 +6,11 @@
         * [License](#License)
 * [Installation](#Installation)
 * [Usage](#Usage)
-   * [GBNN method](#GBNN method)
-   * [cross-validation](#cross-validation)
+   * [GBNN method](#GBNN-Example)
+   * [cross-validation](#cross-validation-Exapmle)
    * [Requirements](#Requirements)
-      * [Requirements of GBNN](#GBNN-GBNN)
+      * [Requirements of GBNN](#GBNN-Requirements)
+      * [Requirements of Cross-Validation](#Cross-Validation-Requirements)
 * [Contributing](#Contributing)  
 * [Keywords](#Keywords)  
 * [Version](#Version)  
@@ -58,7 +59,7 @@ $ python -m pip install git+https://github.com/GAA-UAM/GBNN/GBNN.py
 If you want to use this library easily after installing it, you could import 
 it into your python project. You can use this package with the standards of 
 Scikit-learn.
-## GBNN method
+## GBNN-Example
 In the following, one can see the example of implementing the algorithm. 
 
 ```python
@@ -74,7 +75,7 @@ The `total_nn` applies to the number of hidden units. The `total_nn` regards the
 And `activation` introduces the default activation function of the base neural network.
 
 
-## Cross-Validation
+## cross-validation-Exapmle
 To implement the GBNN method through the cross-validation processes with K folds, 
 you could also consider the [cross-validation.py](crossvalidation.py) and imported as following.
 With this file, you would also take advantage of the Grid Search method in order to select the optimized hyper-parameter.
@@ -91,14 +92,14 @@ gridsearch(X, y, model, param_grid, scoring_functions,
 the `n_cv_general`, refers to the number of cross-validation. the `n_cv_intrain`, refers to the number of within-train cross-validation.
 
 ## Requirements
-### GBNN-GBNN
+### GBNN-Requirements
 The GBNN package takes advantage of the following libraries, which had already imported to the GBNN package.:
 - [numpy](https://numpy.org/) - Numerical Python
 - [pandas](https://pandas.pydata.org/) - python data analysis library
 - [scipy](https://www.scipy.org/) - Scientific computation in Python
 - [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
 
-### Cross-Validation Requirements
+### Cross-Validation-Requirements
 
 
 
