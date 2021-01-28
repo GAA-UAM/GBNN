@@ -9,13 +9,13 @@ If you use this package, please cite it as below.
 
 ```yaml
 references:
-  - type: article
+    type: article
     Authors:
       - Seyedsaman Emami
       - Gonzalo Martínez-Muñoz
     Arxiv:
-      - https://arxiv.org/abs/1909.12098
-          keywords:
+      - [https://arxiv.org/abs/1909.12098](https://arxiv.org/abs/1909.12098)
+    keywords:
       - Gradient Boosting
       - "Neural Network"
     ...
