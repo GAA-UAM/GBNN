@@ -9,10 +9,10 @@ If you use this package, please cite it as below.
 <br/> **Authors:**
 - Gonzalo Martínez-Muñoz
 - Seyedsaman Emami 
-<br/> 
+
 <br/> **Arxiv:**
 - [Sequential Training of Neural Networks with Gradient Boosting](https://arxiv.org/abs/1909.12098)
-
+[![Build Status](https://arxiv.org/abs/1909.12098)
 
 ## Installation
 Installing via [Git](https://github.com/) to install GBNN.
