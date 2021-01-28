@@ -24,7 +24,7 @@ GBNN is a python library for dealing with classification (Binary and multi-class
 Gradient Boosted Neural Network
 
 ## Citation 
-If you use this package, please cite it as below.
+If you use this package, please [cite](CITATION.cff) it as below.
 
 ```yaml
 References:
