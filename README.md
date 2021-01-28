@@ -3,7 +3,14 @@
 * [Title](#Title)
     * [Citation](#Citation)
         * [Paper](#Paper)
-        
+        * [License](#License)
+* [Installation](#Installation)
+* [Usage](#Usage)
+   * [Requirements](#Requirements)
+* [Contributing](#Contributing)  
+* [Keywords](#Keywords)  
+* [Version](#Version)  
+* [Date-released](#Date-released)      
 
 
 
@@ -32,16 +39,23 @@ References:
 ### Paper
 [Sequential Training of Neural Networks with Gradient Boosting](https://arxiv.org/abs/1909.12098)
 
+### License
+The package is licensed under the [GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html).
 
-## Installation
+
+
+# Installation
 Installing via [Git](https://github.com/) to install GBNN.
 
 ```bash
 $ python -m pip install git+https://github.com/GAA-UAM/GBNN/GBNN.py
 ```
 
-## Usage
-You can simply use this package with the standards of Scikit-learn.
+# Usage
+If you want to use this library easily after installing it, you could import 
+it into your python project. You can use this package with the standards of 
+Scikit-learn.
+In the following, one can see the example of implementing the algorithm. 
 
 ```python
 import GBNN
@@ -60,7 +74,7 @@ This package takes advantage of the following libraries:
 <br/>
 These libraries had already imported to the GBNN package.
 
-## Contributing
+# Contributing
 All contributions are welcome. You can help this project by creating an issue, 
 reporting an improvement or a bug, forking and creating a pull request to the 
 development branch.
@@ -68,14 +82,11 @@ development branch.
 The authors and developers involved in the development of the GBNN package can be found in the [contributor](contributors.txt)'s file.
 
 
-### License
-The package is licensed under the [GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html).
-
-### Keywords
+# Keywords
 **`Gradient Boosting`**, **`Neural Network`**
 
-### Version 
+# Version 
 1.0.0
 
-### Date-released
+# Date-released
 2021-01-27
