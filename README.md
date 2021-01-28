@@ -1,3 +1,6 @@
+
+![![alt text](https://github.com/GAA-UAM/GBNN/blob/main/doc/GBNNcover1.png)](https://github.com/GAA-UAM/GBNN/blob/main/doc/GBNNcover1.png)
+
 ## Table of contents
 * [GBNN](#GBNN)
 * [Title](#Title)
