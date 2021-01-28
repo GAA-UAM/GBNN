@@ -9,8 +9,6 @@
    * [GBNN method](#GBNN-Example)
    * [cross-validation](#cross-validation-Exapmle)
    * [Requirements](#Requirements)
-      * [Requirements of GBNN](#GBNN-Requirements)
-      * [Requirements of Cross-Validation](#Cross-Validation-Requirements)
 * [Contributing](#Contributing)  
 * [Keywords](#Keywords)  
 * [Version](#Version)  
@@ -92,15 +90,11 @@ gridsearch(X, y, model, param_grid, scoring_functions,
 the `n_cv_general`, refers to the number of cross-validation. the `n_cv_intrain`, refers to the number of within-train cross-validation.
 
 ## Requirements
-### GBNN-Requirements
-The GBNN package takes advantage of the following libraries, which had already imported to the GBNN package.:
+This package takes advantage of the following libraries, which had already imported to the GBNN package.:
 - [numpy](https://numpy.org/) - Numerical Python
 - [pandas](https://pandas.pydata.org/) - python data analysis library
 - [scipy](https://www.scipy.org/) - Scientific computation in Python
 - [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
-
-### Cross-Validation-Requirements
-
 
 
 # Contributing
