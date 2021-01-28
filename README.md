@@ -6,7 +6,9 @@
         * [License](#License)
 * [Installation](#Installation)
 * [Usage](#Usage)
+   * [cross-validation](#cross-validation)
    * [Requirements](#Requirements)
+      * [Requirements of GBNN](#Requirements of GBNN)
 * [Contributing](#Contributing)  
 * [Keywords](#Keywords)  
 * [Version](#Version)  
@@ -65,14 +67,30 @@ model.fit(x_train, y_train)
 model.predict(x_test)
 ```
 
+## Cross-Validation
+To implement the GBNN method through the cross-validation processes with K folds, 
+you could also consider the [cross-validation.py](crossvalidation.py) and imported as following.
+With this file, you would also take advantage of the Grid Search method in order to select the optimized hyper-parameter.
+
+```python
+import crossvalidation as gridsearch
+
+model = GBNN.GNEGNEClassifier()
+param_grid = {'clf__num_nn_step': [1, 2, 3, 4], 'clf__subsample': [
+    0.25, 0.5, 0.75, 1], 'clf__eta': [0.025, 0.05, 0.1, 0.5, 1]}
+gridsearch(X, y, model, param_grid, scoring_functions,
+                pipeline, best_scoring, random_state, n_cv_general, n_cv_intrain)
+```
+the `n_cv_general`, refers to the number of cross-validation. the `n_cv_intrain`, refers to the number of within-train cross-validation.
+
 ## Requirements
-This package takes advantage of the following libraries:
+### Requirements of GBNN
+The GBNN package takes advantage of the following libraries, which had already imported to the GBNN package.:
 - [numpy](https://numpy.org/) - Numerical Python
 - [pandas](https://pandas.pydata.org/) - python data analysis library
 - [scipy](https://www.scipy.org/) - Scientific computation in Python
 - [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
-<br/>
-These libraries had already imported to the GBNN package.
+
 
 # Contributing
 All contributions are welcome. You can help this project by creating an issue, 
