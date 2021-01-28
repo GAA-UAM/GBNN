@@ -6,11 +6,21 @@ Gradient Boosted Neural Network
 
 ## Citation 
 If you use this package, please cite it as below.
-<br/> **Authors:**
-- Gonzalo Martínez-Muñoz
-- Seyedsaman Emami 
 
-<br/> **Arxiv:**
+```yaml
+references:
+  - type: article
+    Authors:
+      - Seyedsaman Emami
+      - Gonzalo Martínez-Muñoz
+    Arxiv:
+      - https://arxiv.org/abs/1909.12098
+          keywords:
+      - Gradient Boosting
+      - "Neural Network"
+    ...
+```
+**Arxiv:**
 - [Sequential Training of Neural Networks with Gradient Boosting](https://arxiv.org/abs/1909.12098)
 
 
