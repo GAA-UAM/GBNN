@@ -45,7 +45,7 @@ References:
 [Sequential Training of Neural Networks with Gradient Boosting](https://arxiv.org/abs/1909.12098)
 
 ### License
-The package is licensed under the [GNU General Public License v3.0](https://spdx.org/licenses/GPL-3.0-or-later.html).
+The package is licensed under the [GNU Lesser General Public License v2.1](https://github.com/GAA-UAM/GBNN/blob/main/LICENSE).
 
 
 
