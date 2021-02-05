@@ -78,7 +78,7 @@ And `activation` introduces the default activation function of the base neural n
 
 ## cross-validation-Exapmle
 To implement the GBNN method through the cross-validation processes with K folds, 
-you could also consider the [cross-validation.py](crossvalidation.py) and imported as following.
+you could also consider the [cross_validation.py](cross_validation.py) and imported as following.
 With this file, you would also take advantage of the Grid Search method in order to select the optimized hyper-parameter.
 
 ```python
