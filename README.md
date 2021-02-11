@@ -75,7 +75,7 @@ The default values of the GBNN's hyper-parameters are, as above code.
 The `total_nn` applies to the number of hidden units. The `total_nn` regards the units per iteration. 
 And `activation` introduces the default activation function of the base neural network.
 <br/>
-Check the [example] (examples.ipynb) file to see the GBNN performance over the classification and regression problem.
+Check the [example](examples.ipynb) file to see the GBNN performance over the classification and regression problem.
 
 
 ## cross-validation-Exapmle
