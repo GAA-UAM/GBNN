@@ -98,7 +98,7 @@ class multi_class_loss(classification_loss):
 
     def __call__(self, y, pred):
         return np.sum(-1 * (y * pred).sum(axis=1) +
-                                         logsumexp(pred, axis=1, keepdims=True))
+                                         logsumexp(pred, axis=1))
 
 
 class GNEGNE(BaseEstimator):
