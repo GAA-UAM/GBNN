@@ -163,7 +163,7 @@ class GNEGNE(BaseEstimator):
         self.intercept = self.loss.model0(y)
         acum = np.ones_like(y) * self.intercept
 
-        self.losses = [np.mean(self.loss(y, acum))]
+        self.losses = []
 
         random_state = check_random_state(self.random_state)
 
@@ -205,6 +205,10 @@ class GNEGNE(BaseEstimator):
             preds += model.predict(X) * step
 
         return preds
+    
+    def ave_losses(self):
+        return self.losses
+    
 
     def to_NN(self):
         """ Assembles the model into a single NN """
@@ -264,8 +268,7 @@ class GNEGNEClassifier(GNEGNE, ClassifierMixin):
     def predict_proba(self, X):
         return self.loss.raw_predictions_to_probs(self._decision_function(X))
             
-    def ave_losses(self):
-        return self.losses
+    
 
 
 class GNEGNERegressor(GNEGNE, RegressorMixin):
