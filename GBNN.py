@@ -5,6 +5,7 @@
 
 # Licence: GNU Lesser General Public License v2.1 (LGPL-2.1)
 
+import time
 import numpy as np
 import pandas as pd
 
@@ -166,7 +167,8 @@ class GNEGNE(BaseEstimator):
         self.losses = []
 
         random_state = check_random_state(self.random_state)
-
+        self._training_time = []
+        t0 = time.time()
         for i in range(self.T):
             
             residuals = self.loss.derive(y, acum)
@@ -196,6 +198,7 @@ class GNEGNE(BaseEstimator):
             acum = acum + rho * predictions_i
             self.losses.append(np.mean(self.loss(y, acum)))
             self._add(rr, rho)
+            self._training_time.append(t0- time.time())
 
     def _decision_function(self, X):
         """ outputs the raw prediction of the model """
