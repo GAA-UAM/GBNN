@@ -4,7 +4,7 @@
 # Author: Gonzalo Martínez-Muñoz 
 
 # Licence: GNU Lesser General Public License v2.1 (LGPL-2.1)
-
+import copy
 import time
 import numpy as np
 import pandas as pd
@@ -198,7 +198,7 @@ class GNEGNE(BaseEstimator):
             acum = acum + rho * predictions_i
             self.losses.append(np.mean(self.loss(y, acum)))
             self._add(rr, rho)
-            self._training_time.append(t0- time.time())
+            self._training_time.append(time.time() - t0)
 
     def _decision_function(self, X):
         """ outputs the raw prediction of the model """
