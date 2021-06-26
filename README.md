@@ -13,7 +13,7 @@
    * [cross-validation](#cross-validation-Exapmle)
    * [Requirements](#Requirements)
 * [Contributions](#Contributions)  
-   * [Key members](#Key members of GBNN
+   * [Key members](#Key members of GBNN)
 * [Keywords](#Keywords)  
 * [Version](#Version)  
    * [Updated](#Updated)
