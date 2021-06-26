@@ -13,10 +13,10 @@
    * [cross-validation](#cross-validation-Exapmle)
    * [Requirements](#Requirements)
 * [Contributions](#Contributions)  
-* [Key members](#Key members of GBNN
+   * [Key members](#Key members of GBNN
 * [Keywords](#Keywords)  
 * [Version](#Version)  
-* [Updated](#Updated)
+   * [Updated](#Updated)
 * [Date-released](#Date-released)      
 
 
@@ -122,15 +122,16 @@ The authors and developers involved in the development of the GBNN package can b
 
 ## Key members of GBNN
 
-[Gonzalo Martínez-Muñoz](https://github.com/gmarmu)
-[Seyedsaman Emami](https://github.com/samanemami)
+* [Gonzalo Martínez-Muñoz](https://github.com/gmarmu)
+* [Seyedsaman Emami](https://github.com/samanemami)
+
 # Keywords
 **`Gradient Boosting`**, **`Neural Network`**
 
 # Version 
 1.0.1
 
-# Updated
+## Updated
 2021-06-19
 
 # Date-released
