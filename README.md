@@ -101,7 +101,16 @@ This package takes advantage of the following libraries, which had already impor
 - [scipy](https://www.scipy.org/) - Scientific computation in Python
 - [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
 
-
+# How to cite GBNN
+If you are using GBNN in your paper, please cite our work [GBNN](https://arxiv.org/abs/1909.12098).
+```
+@article{emami2019sequential,
+  title={Sequential training of neural networks with gradient boosting},
+  author={Emami, Seyedsaman and Mart{\'\i}nez-Mu{\~n}oz, Gonzalo},
+  journal={arXiv preprint arXiv:1909.12098},
+  year={2019}
+}
+```
 # Contributions
 Contributions to the GBNN are welcome! . You can improve this project by creating an issue, 
 reporting an improvement or a bug, forking and creating a pull request to the 
