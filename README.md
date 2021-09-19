@@ -51,10 +51,10 @@ The package is licensed under the [GNU Lesser General Public License v2.1](https
 
 
 # Installation
-Installing via [Git](https://github.com/) to install GBNN.
+First, clone this project then, install the Python package:
 
 ```bash
-$ python -m pip install git+https://github.com/GAA-UAM/GBNN/GBNN.py
+$ pip install .
 ```
 
 # Usage
