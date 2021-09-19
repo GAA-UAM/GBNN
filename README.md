@@ -66,9 +66,9 @@ Note that this project can run on both Windows and Linux and is tested on both o
 In the following, one can see the example of implementing the algorithm. 
 
 ```python
-import GBNN
+import gbnn
 
-model = GBNN.GNEGNEClassifier(total_nn=200, num_nn_step=1, eta=1.0, solver='lbfgs',
+model = gbnn.GNEGNEClassifier(total_nn=200, num_nn_step=1, eta=1.0, solver='lbfgs',
                      subsample=0.5, tol=0.0, max_iter=200, random_state=None, activation='logistic')
 model.fit(x_train, y_train)
 model.predict(x_test)
@@ -77,18 +77,18 @@ The default values of the GBNN's hyper-parameters are, as above code.
 The `total_nn` applies to the number of hidden units. The `total_nn` regards the units per iteration. 
 And `activation` introduces the default activation function of the base neural network.
 <br/>
-Check the [example](examples.ipynb) file to see the GBNN performance over the classification and regression problem.
+Check the [example](https://github.com/GAA-UAM/GBNN/tree/main/examples/examples.ipynb) file to see the GBNN performance over the classification and regression problem.
 
 
-## cross-validation-Exapmle
+## cross-validation-Example
 To implement the GBNN method through the cross-validation processes with K folds, 
-you could also consider the [cross_validation.py](cross_validation.py) and imported as following.
+you could also consider the [cross_validation.py](https://github.com/GAA-UAM/GBNN/tree/main/gbnn/cross_validation.py) and imported as following.
 With this file, you would also take advantage of the Grid Search method in order to select the optimized hyper-parameter.
 
 ```python
-import crossvalidation as gridsearch
+import crossvalidation.gridsearch as gridsearch
 
-model = GBNN.GNEGNEClassifier()
+model = gbnn.GNEGNEClassifier()
 param_grid = {'clf__num_nn_step': [1, 2, 3, 4], 'clf__subsample': [
     0.25, 0.5, 0.75, 1], 'clf__eta': [0.025, 0.05, 0.1, 0.5, 1]}
 gridsearch(X, y, model, param_grid, scoring_functions,
