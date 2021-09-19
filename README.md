@@ -54,7 +54,7 @@ The package is licensed under the [GNU Lesser General Public License v2.1](https
 First, clone this project then, install the Python package:
 
 ```bash
-$ pip install .
+pip install .
 ```
 
 # Usage
