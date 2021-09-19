@@ -61,6 +61,7 @@ pip install .
 If you want to use this library easily after installing it, you could import 
 it into your python project. You can use this package with the standards of 
 Scikit-learn.
+Note that this project can run on both Windows and Linux and is tested on both of them.
 ## GBNN-Example
 In the following, one can see the example of implementing the algorithm. 
 
@@ -131,7 +132,7 @@ The authors and developers involved in the development of the GBNN package can b
 1.0.1
 
 ## Updated
-2021-06-19
+2021-09-19
 
 # Date-released
 2021-01-27
