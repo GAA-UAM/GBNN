@@ -86,13 +86,13 @@ you could also consider the [cross_validation.py](https://github.com/GAA-UAM/GBN
 With this file, you would also take advantage of the Grid Search method in order to select the optimized hyper-parameter.
 
 ```python
-import crossvalidation.gridsearch as gridsearch
+from gbnn import cross_validation, GNEGNEClassifier
 
-model = gbnn.GNEGNEClassifier()
+model = GNEGNEClassifier()
 param_grid = {'clf__num_nn_step': [1, 2, 3, 4], 'clf__subsample': [
     0.25, 0.5, 0.75, 1], 'clf__eta': [0.025, 0.05, 0.1, 0.5, 1]}
-gridsearch(X, y, model, param_grid, scoring_functions,
-                pipeline, best_scoring, random_state, n_cv_general, n_cv_intrain)
+cross_validation.gridsearch(X, y, model, param_grid, scoring_functions,
+                            pipeline, best_scoring, random_state, n_cv_general, n_cv_intrain)
 ```
 the `n_cv_general`, refers to the number of cross-validation. the `n_cv_intrain`, refers to the number of within-train cross-validation.
 
