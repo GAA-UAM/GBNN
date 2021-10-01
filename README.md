@@ -1,5 +1,6 @@
 
-![![alt text](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer.eps)](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer.eps)
+![![alt text](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_gne_mc.jpg)](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_gne_mc.jpg)
+![![alt text](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_mc.jpg)](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_mc.jpg)
 
 ## Table of contents
 * [GBNN](#GBNN)
