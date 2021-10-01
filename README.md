@@ -128,7 +128,7 @@ The authors and developers involved in the development of the GBNN package can b
 **`Gradient Boosting`**, **`Neural Network`**
 
 # Version 
-1.0.1
+0.1.1
 
 ## Updated
 2021-09-19
