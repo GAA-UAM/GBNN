@@ -1,7 +1,13 @@
-If you use this package, please cite it as below.
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
 authors:
-  - Author: Seyedsaman Emami, 
-  - Author: Gonzalo Martínez-Muñoz
-title: Gradient Boosted Neural Network
-version: 1.0.0
+- family-names: "Emami"
+  given-names: "Seyedsaman"
+  orcid: "https://orcid.org/0000-0002-6306-1180"
+- family-names: "Martínez-Muñoz"
+  given-names: "Gonzalo"
+  orcid: "https://orcid.org/0000-0002-6125-6056"
+title: "Gradient Boosted Neural Network"
+version: 1.0.1
 date-released: 2021-01-27
+url: "https://github.com/GAA-UAM/GBNN"
