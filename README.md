@@ -1,9 +1,9 @@
 <div class="row">
   <div class="column">
-    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_gne_mc.jpg" alt="NN" style="width:50%">
+    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_gne_mc.jpg" alt="NN" style="width:30%">
   </div>
   <div class="column">
-    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_mc.jpg" alt="mc" style="width:50%">
+    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_mc.jpg" alt="mc" style="width:30%">
   </div>
 </div>
 
