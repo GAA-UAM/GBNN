@@ -8,6 +8,6 @@ authors:
   given-names: "Gonzalo"
   orcid: "https://orcid.org/0000-0002-6125-6056"
 title: "Gradient Boosted Neural Network"
-version: 1.0.1
+version: 0.1.1
 date-released: 2021-01-27
 url: "https://github.com/GAA-UAM/GBNN"
