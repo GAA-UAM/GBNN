@@ -1,5 +1,5 @@
 
-![![alt text](https://github.com/GAA-UAM/GBNN/blob/main/doc/GBNNcover.png)](https://github.com/GAA-UAM/GBNN/blob/main/doc/GBNNcover.png)
+![![alt text](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer.eps)](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer.eps)
 
 ## Table of contents
 * [GBNN](#GBNN)
