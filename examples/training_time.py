@@ -70,10 +70,10 @@ for t in range(1, T + 1, step):
 fig, ax1 = plt.subplots()
 ax1.set_xlabel("Number of neurons")
 ax1.set_ylabel("Time (in seconds)")
-ax1.plot(range(1, T + 1, 64),
+ax1.plot(range(1, T + 1, step),
          time_nn[0::step], color='tab:orange', label="NN")
-ax1.plot(g, gbnn_ti, color='tab:blue', label="GBNN")
-ax1.plot(range(1, T + 1, 64),
+ax1.plot(range(1, T + 1, step), gbnn_ti, color='tab:blue', label="GBNN")
+ax1.plot(range(1, T + 1, step),
          time_deep[0::step], color='tab:green', label="Deep-NN")
 
 ax1.yaxis.set_minor_locator(AutoMinorLocator())
