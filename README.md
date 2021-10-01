@@ -1,10 +1,8 @@
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_gne_mc.jpg" alt="NN" style="width:30%">
-  </div>
-  <div class="column">
-    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_mc.jpg" alt="mc" style="width:30%">
-  </div>
+<div class="image123">
+    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_gne_mc.jpg" height="200" width="200" style="float:left">
+    <p>This is image 1</p>
+    <img class="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_mc.jpg" src="/images/tv.gif"/ height="200" width="200">
+    <p>This is image 2</p>
 </div>
 
 
