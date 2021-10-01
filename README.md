@@ -1,8 +1,5 @@
-<div class="image123">
-    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_gne_mc.jpg" height="200" width="200" style="float:left">
-    <p>This is image 1</p>
-    <img class="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn_hlt_nlayer_mc.jpg" src="/images/tv.gif"/ height="200" width="200">
-    <p>This is image 2</p>
+<div class="row">
+    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn.png" height="200" width="200" style="float:center">
 </div>
 
 
