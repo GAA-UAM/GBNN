@@ -1,7 +1,4 @@
-<div class="row">
-    <img src="https://github.com/GAA-UAM/GBNN/blob/main/doc/nn.png" height="200" width="200" style="float:center">
-</div>
-
+![![alt text](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn.png)](https://github.com/GAA-UAM/GBNN/blob/main/doc/nn.png)
 
 ## Table of contents
 * [GBNN](#GBNN)
