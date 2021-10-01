@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="GBNN",
-    version="1.0.1",
+    version="0.1.1",
     author="Seyedsaman Emami, Gonzalo Martínez-Muñoz",
     author_email="emami.seyedsaman@uam.es, gonzalo.martinez@uam.es",
     description="Gradient Boosted Neural Network",
