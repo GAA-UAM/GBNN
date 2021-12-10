@@ -65,14 +65,14 @@ def gridsearch(X, y, model, grid,
         bestparams.append(grid_search.best_params_)
 
         grid_search.cv_results_[
-            'final_test_error'] = grid_search.score(x_test, y_test)
+            'final_test_score'] = grid_search.score(x_test, y_test)
 
         cv_results.append(grid_search.cv_results_)
 
         cv_results_test[cv_i, 0] = grid_search.cv_results_[
             'mean_test_score'][grid_search.best_index_]
         cv_results_generalization[cv_i, 0] = grid_search.cv_results_[
-            'final_test_error']
+            'final_test_score']
 
     results = {}
     results['Metric'] = [
