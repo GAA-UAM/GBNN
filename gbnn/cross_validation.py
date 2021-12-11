@@ -17,15 +17,13 @@ from sklearn.model_selection import GridSearchCV, KFold, StratifiedKFold
 def gridsearch(X, y, model, grid,
                scoring_functions=None, pipeline=None,
                best_scoring=True, random_state=None,
-               n_cv_general=10, n_cv_intrain=10,
-               train_score=False, save_results=False):
+               n_cv_general=10, n_cv_intrain=10):
 
     cv_results_test = np.zeros((n_cv_general, 1))
     cv_results_generalization = np.zeros((n_cv_general, 1))
     pred = np.zeros_like(y)
     bestparams = []
     cv_results = []
-    
 
     if type_of_target(y) == 'continuous':
         kfold_gen = KFold(n_splits=n_cv_general,
@@ -55,8 +53,9 @@ def gridsearch(X, y, model, grid,
         # Finding optimum hyper-parameter
 
         grid_search = GridSearchCV(estimator, grid, cv=kfold,
-                                   scoring=scoring_functions, refit=best_scoring,
-                                   return_train_score=train_score)
+                                   scoring=scoring_functions,
+                                   refit=best_scoring,
+                                   return_train_score=False)
 
         grid_search.fit(x_train, y_train)
 
@@ -86,9 +85,8 @@ def gridsearch(X, y, model, grid,
     results['Std_generalization_score'] = np.std(
         cv_results_generalization, axis=0)
 
-    if (save_results == True):
-        pd.DataFrame(results).to_csv('Score.csv')
-        pd.DataFrame(cv_results).to_csv('CV_results.csv')
-        pd.DataFrame(bestparams).to_csv('Best_Parameters.csv')
+    pd.DataFrame(results).to_csv('Score.csv')
+    pd.DataFrame(cv_results).to_csv('CV_results.csv')
+    pd.DataFrame(bestparams).to_csv('Best_Parameters.csv')
 
     return results, pred
