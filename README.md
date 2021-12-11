@@ -131,7 +131,7 @@ The authors and developers involved in the development of the GBNN package can b
 0.1.1
 
 ## Updated
-2021-09-19
+2021-12-11
 
 # Date-released
 2021-01-27
