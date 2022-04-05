@@ -12,6 +12,7 @@
    * [cross-validation](#cross-validation-Exapmle)
    * [Requirements](#Requirements)
 * [Contributions](#Contributions)  
+* [Developments](#Developments)
 * [Keywords](#Keywords)  
 * [Version](#Version)  
    * [Updated](#Updated)
@@ -47,8 +48,6 @@ References:
 ### License
 The package is licensed under the [GNU Lesser General Public License v2.1](https://github.com/GAA-UAM/GBNN/blob/main/LICENSE).
 
-
-
 # Installation
 First, clone this project then, install the Python package:
 
@@ -76,7 +75,7 @@ The default values of the GBNN's hyper-parameters are, as above code.
 The `total_nn` applies to the number of hidden units. The `total_nn` regards the units per iteration. 
 And `activation` introduces the default activation function of the base neural network.
 <br/>
-Check the [example](https://github.com/GAA-UAM/GBNN/tree/main/examples/examples.ipynb) file to see the GBNN performance over the classification and regression problem.
+Check the [example](https://github.com/GAA-UAM/GBNN/tree/main/examples) to see the GBNN performance over the classification and regression problem.
 
 
 ## cross-validation-Example
@@ -112,6 +111,10 @@ If you are using GBNN in your paper, please cite our work [GBNN](https://arxiv.o
   year={2019}
 }
 ```
+
+# Developments
+The developed multi-output regression with the related experiments is available in the [GBNN-MO](https://github.com/GAA-UAM/GBNN-MO) repository.
+
 # Contributions
 Contributions to the GBNN are welcome! . You can improve this project by creating an issue, 
 reporting an improvement or a bug, forking and creating a pull request to the 
