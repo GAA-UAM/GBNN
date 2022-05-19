@@ -49,10 +49,12 @@ References:
 The package is licensed under the [GNU Lesser General Public License v2.1](https://github.com/GAA-UAM/GBNN/blob/main/LICENSE).
 
 # Installation
-First, clone this project then, install the Python package:
+## INSTALLING VIA PIP
+
+inbuilt Python package management system, pip. You can can install, update, or delete the GBNN.
 
 ```bash
-pip install .
+pip install gbnn
 ```
 
 # Usage
