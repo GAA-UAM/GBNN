@@ -36,8 +36,12 @@ References:
     Authors:
       - Seyedsaman Emami
       - Gonzalo Martínez-Muñoz
-    Arxiv:
-      - https://arxiv.org/abs/1909.12098
+    journal:
+      - IEEE Access
+    Year:
+      - 2023
+    DOI:
+      - 10.1109/ACCESS.2023.3271515
     Keywords:
       - Gradient Boosting
       - "Neural Network"
@@ -107,10 +111,16 @@ This package takes advantage of the following libraries, which had already impor
 If you are using GBNN in your paper, please cite our work [GBNN](https://arxiv.org/abs/1909.12098).
 ```
 @article{emami2019sequential,
-  title={Sequential training of neural networks with gradient boosting},
-  author={Emami, Seyedsaman and Mart{\'\i}nez-Mu{\~n}oz, Gonzalo},
-  journal={arXiv preprint arXiv:1909.12098},
-  year={2019}
+         title={Sequential training of neural networks with gradient boosting},
+         author={Emami, Seyedsaman and Mart{\'\i}nez-Mu{\~n}oz, Gonzalo},
+         journal={IEEE Access},
+         year={2023},
+         publisher={IEEE},
+         volume={11},
+         pages={64814--64825},
+         doi={10.1109/ACCESS.2023.3271515},
+         issn={2169-3536},
+         eissn={2169-3536}
 }
 ```
 
