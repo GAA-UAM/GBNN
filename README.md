@@ -27,12 +27,15 @@ GBNN is a python library for dealing with classification (Binary and multi-class
 # Title
 Gradient Boosted Neural Network
 
-## Citation 
+# Citation 
 If you use this package, please [cite](CITATION.cff) it as below.
 
 ```yaml
 References:
-    Type: article
+    Type: 
+      - article
+    title:
+      - Sequential training of neural networks with gradient boosting
     Authors:
       - Seyedsaman Emami
       - Gonzalo Martínez-Muñoz
@@ -46,6 +49,24 @@ References:
       - Gradient Boosting
       - "Neural Network"
 ```
+
+Or if you are using GBNN in your paper, please cite our work [GBNN](https://ieeexplore.ieee.org/document/10110967).
+```
+@article{emami2019sequential,
+         title={Sequential training of neural networks with gradient boosting},
+         author={Emami, Seyedsaman and Mart{\'\i}nez-Mu{\~n}oz, Gonzalo},
+         journal={IEEE Access},
+         year={2023},
+         publisher={IEEE},
+         volume={11},
+         pages={64814--64825},
+         doi={10.1109/ACCESS.2023.3271515},
+         issn={2169-3536},
+         eissn={2169-3536}
+}
+```
+
+
 ### Paper
 [Sequential Training of Neural Networks with Gradient Boosting](https://ieeexplore.ieee.org/document/10110967)
 
@@ -107,22 +128,7 @@ This package takes advantage of the following libraries, which had already impor
 - [scipy](https://www.scipy.org/) - Scientific computation in Python
 - [scikit-learn](https://scikit-learn.org/stable/) - Machine learning in Python
 
-# How to cite GBNN
-If you are using GBNN in your paper, please cite our work [GBNN](https://arxiv.org/abs/1909.12098).
-```
-@article{emami2019sequential,
-         title={Sequential training of neural networks with gradient boosting},
-         author={Emami, Seyedsaman and Mart{\'\i}nez-Mu{\~n}oz, Gonzalo},
-         journal={IEEE Access},
-         year={2023},
-         publisher={IEEE},
-         volume={11},
-         pages={64814--64825},
-         doi={10.1109/ACCESS.2023.3271515},
-         issn={2169-3536},
-         eissn={2169-3536}
-}
-```
+
 
 # Developments
 The developed multi-output regression with the related experiments is available in the [GBNN-MO](https://github.com/GAA-UAM/GBNN-MO) repository.
