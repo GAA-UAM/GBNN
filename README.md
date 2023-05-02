@@ -47,7 +47,7 @@ References:
       - "Neural Network"
 ```
 ### Paper
-[Sequential Training of Neural Networks with Gradient Boosting](https://arxiv.org/abs/1909.12098)
+[Sequential Training of Neural Networks with Gradient Boosting](https://ieeexplore.ieee.org/document/10110967)
 
 ### License
 The package is licensed under the [GNU Lesser General Public License v2.1](https://github.com/GAA-UAM/GBNN/blob/main/LICENSE).
