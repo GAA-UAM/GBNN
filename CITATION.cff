@@ -10,4 +10,5 @@ authors:
 title: "Gradient Boosted Neural Network"
 version: 0.0.2
 date-released: 2021-01-27
-url: "https://github.com/GAA-UAM/GBNN"
+Repository: "https://github.com/GAA-UAM/GBNN"
+Paper: "https://ieeexplore.ieee.org/document/10110967"
