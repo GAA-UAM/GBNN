@@ -50,25 +50,22 @@ References:
       - "Neural Network"
 ```
 
-Or if you are using GBNN in your paper, please cite our work [GBNN](https://ieeexplore.ieee.org/document/10110967).
+Or if you are using GBNN in your paper, please cite our work [GBNN](https://ieeexplore.ieee.org/abstract/document/10110967).
 ```
-@article{emami2019sequential,
-         title={Sequential training of neural networks with gradient boosting},
-         author={Emami, Seyedsaman and Mart{\'\i}nez-Mu{\~n}oz, Gonzalo},
-         journal={IEEE Access},
-         year={2023},
-         publisher={IEEE},
-         volume={11},
-         pages={64814--64825},
-         doi={10.1109/ACCESS.2023.3271515},
-         issn={2169-3536},
-         eissn={2169-3536}
-}
+@ARTICLE{10110967,
+  author={Emami, Seyedsaman and Martýnez-Muñoz, Gonzalo},
+  journal={IEEE Access}, 
+  title={Sequential Training of Neural Networks With Gradient Boosting}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={42738-42750},
+  doi={10.1109/ACCESS.2023.3271515}}
 ```
 
 
 ### Paper
-[Sequential Training of Neural Networks with Gradient Boosting](https://ieeexplore.ieee.org/document/10110967)
+[Sequential Training of Neural Networks with Gradient Boosting](https://ieeexplore.ieee.org/abstract/document/10110967)
 
 ### License
 The package is licensed under the [GNU Lesser General Public License v2.1](https://github.com/GAA-UAM/GBNN/blob/main/LICENSE).
