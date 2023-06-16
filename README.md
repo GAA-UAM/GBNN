@@ -58,7 +58,6 @@ Or if you are using GBNN in your paper, please cite our work [GBNN](https://ieee
   title={Sequential Training of Neural Networks With Gradient Boosting}, 
   year={2023},
   volume={11},
-  number={},
   pages={42738-42750},
   doi={10.1109/ACCESS.2023.3271515}}
 ```
